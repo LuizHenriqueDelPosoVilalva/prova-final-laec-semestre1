@@ -2,5 +2,37 @@ html, body {
   font-family: "Wix Madefor Display", sans-serif;
   padding: 0;
   margin: 0;
-  background-color: #FBFBFB;
+  background-color: #FBFBFB !important;
+}
+
+.alinharNav {
+  display: flex;
+}
+
+.titulo-do-projeto {
+  font-size: 30px;
+  color: #000;
+  outline: none;
+  text-decoration: none;
+  margin-right: 60px;
+}
+.titulo-do-projeto:hover {
+  color: white !important;
+}
+
+.links {
+  font-weight: bold;
+  text-decoration: none;
+  color: #000 !important;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.links:hover {
+  border-bottom: 2px solid white;
+  color: white !important;
+}
+
+.nav-apresentacao {
+  background-color: #00FF00 !important;
 }/*# sourceMappingURL=style.css.map */
