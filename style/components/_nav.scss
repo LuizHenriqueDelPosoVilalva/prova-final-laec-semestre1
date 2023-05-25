@@ -27,3 +27,36 @@
 .nav-apresentacao {
   background-color: $cor-primaria !important;
 }
+
+.menu-lateral {
+  background-color: $cor-primaria;
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.titulo-menu-lateral {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: $black !important;
+}
+
+.centralizando-menu-lateral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-menu-lareal {
+  text-decoration: none;
+  font-size: 13.5px;
+  color:  $black !important;
+  margin-top: 10px;
+
+  &:hover {
+    border-bottom: 2px solid $white;
+    color: $white !important;
+  }
+}

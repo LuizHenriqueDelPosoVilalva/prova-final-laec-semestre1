@@ -32,9 +32,45 @@ html, body {
   background-color: #00FF00 !important;
 }
 
+.menu-lateral {
+  background-color: #00FF00;
+  width: 100px;
+  height: 100%;
+  padding: 10px;
+}
+
+.titulo-menu-lateral {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: #000 !important;
+}
+
+.centralizando-menu-lateral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-menu-lareal {
+  text-decoration: none;
+  font-size: 13.5px;
+  color: #000 !important;
+  margin-top: 10px;
+}
+.links-menu-lareal:hover {
+  border-bottom: 2px solid white;
+  color: white !important;
+}
+
 .imagem-inicial {
   height: 200px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.menu-e-conteudo {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
