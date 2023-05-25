@@ -12,12 +12,7 @@ html, body {
 .titulo-do-projeto {
   font-size: 30px;
   color: #000;
-  outline: none;
-  text-decoration: none;
   margin-right: 60px;
-}
-.titulo-do-projeto:hover {
-  color: white !important;
 }
 
 .links {
@@ -35,4 +30,11 @@ html, body {
 
 .nav-apresentacao {
   background-color: #00FF00 !important;
+}
+
+.imagem-inicial {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */
