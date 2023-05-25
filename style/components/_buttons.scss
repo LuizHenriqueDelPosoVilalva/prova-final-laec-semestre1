@@ -1,0 +1,15 @@
+@import '../abstract/variaveis';
+
+.button-pesquisa {
+  margin: 0;
+  padding: 10px;
+  color: $cor-primaria;
+  border-radius: 0 5px 5px 0;
+  border: 2px solid $cor-primaria;
+  transition: all 0.6s;
+
+  &:hover {
+    background-color: $cor-primaria;
+    color: $white;
+  }
+}

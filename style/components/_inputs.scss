@@ -1,0 +1,9 @@
+@import '../abstract/variaveis';
+
+.input-pesquisa {
+  width: 400px;
+  outline: none;
+  border: 2px solid $cor-primaria;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+}
