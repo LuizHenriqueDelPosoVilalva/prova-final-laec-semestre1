@@ -35,13 +35,6 @@ html, body {
   padding: 10px;
 }
 
-.titulo-menu-lateral {
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: #000 !important;
-}
-
 .centralizando-menu-lateral {
   display: flex;
   flex-direction: column;
@@ -68,9 +61,12 @@ html, body {
 }
 
 .caixa-input-pesquisa {
+  margin: 20px;
+}
+
+.form-de-pesquisa {
   display: flex;
   justify-content: center;
-  margin: 20px;
 }
 
 .menu-e-conteudo {
@@ -78,7 +74,7 @@ html, body {
 }
 
 .input-pesquisa {
-  width: 400px;
+  width: 50%;
   outline: none;
   border: 2px solid #00FF00;
   padding: 10px;
@@ -91,6 +87,7 @@ html, body {
   color: #00FF00;
   border-radius: 0 5px 5px 0;
   border: 2px solid #00FF00;
+  font-weight: bold;
   transition: all 0.6s;
 }
 .button-pesquisa:hover {
