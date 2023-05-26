@@ -1,5 +1,12 @@
+@import '../abstract/variaveis';
+
 .imagem-inicial {
   height: 200px;
   width: 100%;
+  object-fit: cover;
+}
+
+.img-cards {
+  height: 150px;
   object-fit: cover;
 }

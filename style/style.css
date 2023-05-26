@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   font-family: "Wix Madefor Display", sans-serif;
   padding: 0;
@@ -59,6 +60,12 @@ html, body {
      object-fit: cover;
 }
 
+.img-cards {
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .caixa-input-pesquisa {
   margin: 20px;
 }
@@ -76,8 +83,23 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  box-sizing: border-box;
+}
+
+.caixa-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+@media (max-width: 650px) {
+  .caixa-cards {
+    /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
+    solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
+    simples que é quando a tela for menor que 650px os cards não mais se comportam como linhas e sim colunas*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .input-pesquisa {
@@ -106,10 +128,47 @@ html, body {
   text-align: center;
   margin: 10px;
   color: #000;
+  font-weight: bold;
+  font-size: 30px;
 }
 
-.cards {
-  border: 1px solid #00FF00;
-  margin: 10px;
+.cartao {
+  width: 200px;
+  height: 400px;
+  border: 2px solid #00FF00;
+  border-radius: 5px;
+  box-shadow: 0 0 1em #00FF00;
   padding: 10px;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.caixa-img-card {
+  display: flex;
+  justify-content: center;
+}
+
+.info-cards {
+  margin-top: 10px;
+}
+.info-cards p {
+  align-self: flex-end;
+  text-align: center;
+  font-size: 15px;
+}
+.info-cards p:hover {
+  color: #00FF00;
+}
+
+.precos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.precos h6 {
+  text-decoration: line-through;
+  color: #6fa09c;
+}
+.precos h4 {
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
