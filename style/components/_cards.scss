@@ -1,0 +1,13 @@
+@import '../abstract/variaveis';
+
+.titulo-ofertas {
+  text-align: center;
+  margin: 10px;
+  color: $black;
+}
+
+.cards {
+  border: 1px solid $cor-primaria;
+  margin: 10px;
+  padding: 10px;
+}

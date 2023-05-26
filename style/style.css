@@ -38,7 +38,6 @@ html, body {
 .centralizando-menu-lateral {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
@@ -73,6 +72,14 @@ html, body {
   display: flex;
 }
 
+.ofertas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
 .input-pesquisa {
   width: 50%;
   outline: none;
@@ -93,4 +100,16 @@ html, body {
 .button-pesquisa:hover {
   background-color: #00FF00;
   color: white;
+}
+
+.titulo-ofertas {
+  text-align: center;
+  margin: 10px;
+  color: #000;
+}
+
+.cards {
+  border: 1px solid #00FF00;
+  margin: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
