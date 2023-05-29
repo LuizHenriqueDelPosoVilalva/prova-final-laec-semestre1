@@ -11,13 +11,19 @@ html, body {
   color: #000;
   margin-right: 60px;
 }
+@media (max-width: 375px) {
+  .titulo-do-projeto {
+    font-size: 20px;
+    color: #000;
+  }
+}
 
 .links {
   font-weight: bold;
   text-decoration: none;
   color: #000 !important;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 20px;
 }
 .links:hover {
@@ -102,6 +108,10 @@ html, body {
   }
 }
 
+footer {
+  margin-top: 80px;
+}
+
 .input-pesquisa {
   width: 50%;
   outline: none;
@@ -137,7 +147,6 @@ html, body {
   height: 400px;
   border: 2px solid #00FF00;
   border-radius: 5px;
-  box-shadow: 0 0 1em #00FF00;
   padding: 10px;
   cursor: pointer;
   transition: all 0.6s;
@@ -171,4 +180,38 @@ html, body {
 }
 .precos h4 {
   color: #000;
+}
+
+.conteudo-lista-politicas-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.conteudo-lista-politicas-servicos ul {
+  list-style-type: none;
+}
+.conteudo-lista-politicas-servicos ul h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.conteudo-lista-politicas-servicos ul li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.conteudo-lista-politicas-servicos ul li:hover {
+  text-decoration: underline;
+}
+
+.caixa-lista-servicos-politicas-contatos {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .caixa-lista-servicos-politicas-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

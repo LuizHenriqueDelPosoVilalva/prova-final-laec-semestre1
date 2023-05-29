@@ -5,6 +5,12 @@
   font-size: 30px;
   color: $black;
   margin-right: 60px;
+
+  @media (max-width: 375px) {
+    //diminuindo a fonte do titulo do projeto quando a tela for menor que 375px
+    font-size: 20px;
+    color: $black;
+  }
 }
 
 .links {
@@ -12,7 +18,7 @@
   text-decoration: none;
   color: $black !important;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 12px;
   margin-right: 20px;
   
   &:hover {
