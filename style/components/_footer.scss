@@ -58,6 +58,7 @@
     font-weight: bold;
     margin: 20px 0;
     @media (max-width: 600px) {
+      //media para alinhar os tutilos no centro quando a tela chegar a o maximo de 600px
       text-align: center;
     }
   }

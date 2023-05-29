@@ -2,15 +2,32 @@
 
 .titulo-ofertas {
   text-align: center;
-  margin: 10px;
+  margin: 30px 0;
   color: $black;
   font-weight: bold;
   font-size: 30px;
 }
 
+.caixa-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px; //da um espaçametos de 10px entre os elementos da div com display
+
+  @media (max-width: 650px) {
+     /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
+     solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
+     simples que é quando a tela for menor que 650px os cards não mais se comportam como linhas e sim colunas*/                          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
 .cartao {
   width: 200px;
-  height: 400px;
+  height: 350px;
   border: 2px solid $cor-primaria;
   border-radius: 5px;
   padding: 10px;
@@ -29,6 +46,7 @@
     align-self: flex-end;
     text-align: center;
     font-size: 15px;
+    text-transform: uppercase;
 
     &:hover {
       color: $cor-primaria;
@@ -48,5 +66,19 @@
 
   h4 {
     color: $black;
+  }
+}
+
+.caixa-cards-promo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px; //da um espaçametos de 10px entre os elementos da div com display
+
+  @media (max-width: 900px) {
+     /*quando a tela for menor que 900px os cards não mais se comportam como linhas e sim colunas*/                          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

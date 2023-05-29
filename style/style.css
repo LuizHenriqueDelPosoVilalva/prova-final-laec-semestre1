@@ -73,6 +73,11 @@ html, body {
      object-fit: cover;
 }
 
+.img-cards-diminuida {
+  height: 150px;
+  width: 130px;
+}
+
 .caixa-input-pesquisa {
   margin: 20px;
 }
@@ -90,23 +95,6 @@ html, body {
   width: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.caixa-cards {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  gap: 10px;
-}
-@media (max-width: 650px) {
-  .caixa-cards {
-    /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
-    solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
-    simples que é quando a tela for menor que 650px os cards não mais se comportam como linhas e sim colunas*/
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 footer {
@@ -152,15 +140,32 @@ footer {
 
 .titulo-ofertas {
   text-align: center;
-  margin: 10px;
+  margin: 30px 0;
   color: #000;
   font-weight: bold;
   font-size: 30px;
 }
 
+.caixa-cards {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+@media (max-width: 650px) {
+  .caixa-cards {
+    /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
+    solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
+    simples que é quando a tela for menor que 650px os cards não mais se comportam como linhas e sim colunas*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .cartao {
   width: 200px;
-  height: 400px;
+  height: 350px;
   border: 2px solid #00FF00;
   border-radius: 5px;
   padding: 10px;
@@ -180,6 +185,7 @@ footer {
   align-self: flex-end;
   text-align: center;
   font-size: 15px;
+  text-transform: uppercase;
 }
 .info-cards p:hover {
   color: #00FF00;
@@ -196,6 +202,21 @@ footer {
 }
 .precos h4 {
   color: #000;
+}
+
+.caixa-cards-promo {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+@media (max-width: 900px) {
+  .caixa-cards-promo {
+    /*quando a tela for menor que 900px os cards não mais se comportam como linhas e sim colunas*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .conteudo-lista-politicas-servicos {
