@@ -40,6 +40,7 @@ html, body {
   width: 100px;
   height: 100%;
   padding: 10px;
+  border-radius: 0 0 5px 5px;
 }
 
 .centralizando-menu-lateral {
@@ -134,6 +135,21 @@ footer {
   color: white;
 }
 
+.button-contato {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #00FF00;
+  border-radius: 5px;
+  color: #00FF00;
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s;
+}
+.button-contato:hover {
+  background-color: #00FF00;
+  color: white;
+}
+
 .titulo-ofertas {
   text-align: center;
   margin: 10px;
@@ -196,9 +212,19 @@ footer {
   font-weight: bold;
   margin: 10px 0;
 }
+@media (max-width: 800px) {
+  .conteudo-lista-politicas-servicos ul h4 {
+    text-align: center;
+  }
+}
 .conteudo-lista-politicas-servicos ul li {
   margin-top: 20px;
   cursor: pointer;
+}
+@media (max-width: 800px) {
+  .conteudo-lista-politicas-servicos ul li {
+    text-align: center;
+  }
 }
 .conteudo-lista-politicas-servicos ul li:hover {
   text-decoration: underline;
@@ -206,12 +232,102 @@ footer {
 
 .caixa-lista-servicos-politicas-contatos {
   display: flex;
+  gap: 60px;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .caixa-lista-servicos-politicas-contatos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
+}
+
+.duvidas-contatos a {
+  text-decoration: none;
+  color: #000;
+}
+.duvidas-contatos a:hover {
+  color: #00FF00;
+}
+.duvidas-contatos h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin: 10px 0;
+}
+@media (max-width: 800px) {
+  .duvidas-contatos {
+    margin-top: 40px;
+  }
+}
+
+.redes-e-formas-de-pagamento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid #00FF00;
+  border-radius: 5px;
+}
+@media (max-width: 600px) {
+  .redes-e-formas-de-pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.formas-de-pagamento h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin: 20px 0;
+}
+@media (max-width: 600px) {
+  .formas-de-pagamento h4 {
+    text-align: center;
+  }
+}
+.formas-de-pagamento p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.formas-de-pagamento img {
+  cursor: pointer;
+}
+
+.redes-sociais h4 {
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+  margin: 20px 0;
+}
+@media (max-width: 600px) {
+  .redes-sociais h4 {
+    text-align: center;
+  }
+}
+.redes-sociais p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.redes-sociais img {
+  cursor: pointer;
+}
+
+.caixa-endereco {
+  background-color: #9e9d9d;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.caixa-endereco p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.caixa-endereco span {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */

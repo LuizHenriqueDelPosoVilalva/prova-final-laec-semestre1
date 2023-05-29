@@ -2,12 +2,114 @@
 
 .caixa-lista-servicos-politicas-contatos {
   display: flex;
+  gap: 60px;
 
-  @media (max-width: 600px) {
-    //media criado para colocar as elementos dentro dessa div em coluna quando a tela atingir o tamanho maximo de 600 px de largura
+  @media (max-width: 800px) {
+    //media criado para colocar as elementos dentro dessa div em coluna quando a tela atingir o tamanho maximo de 800 px de largura
     display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+.duvidas-contatos {
+  a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+      color: $cor-primaria;
+    }
+  }
+
+  h4 {
+    font-size: 15px;
+    color: $black;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  @media (max-width: 800px) {
+    //media criado para aumentar o espaço entre as listas e essa div quando a tela atingir 800 px de largura.
+    margin-top: 40px;
+  }
+}
+
+.redes-e-formas-de-pagamento {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  border-top: 1px solid $cor-primaria;
+  border-radius: 5px;
+
+  @media (max-width: 600px) {
+    //media para colocar os elementos dessa div como colunas quando a tela chegar a o maximo de 600px
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.formas-de-pagamento {
+  h4 {
+    font-size: 15px;
+    color: $black;
+    font-weight: bold;
+    margin: 20px 0;
+    @media (max-width: 600px) {
+      text-align: center;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.redes-sociais {
+  h4 {
+    font-size: 15px;
+    color: $black;
+    font-weight: bold;
+    margin: 20px 0;
+    @media (max-width: 600px) {
+       //media para alinhar os tutilos no centro quando a tela chegar a o maximo de 600px
+      text-align: center;
+    }
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+
+.caixa-endereco {
+  background-color: $fundo-enderecos;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  span {
+    font-weight: bold;
   }
 }

@@ -13,11 +13,19 @@
       color: $black;
       font-weight: bold;
       margin: 10px 0;
+      @media (max-width: 800px){
+        //media para alinhar o titulo quando a tela atingir 800px
+        text-align: center;
+      }
     }
   
     li {
       margin-top: 20px;
       cursor: pointer;
+      @media (max-width: 800px){
+        //media para alinhar os elementos da lista quando a tela atingir 800px
+        text-align: center;
+      }
 
       &:hover {
         text-decoration: underline;
