@@ -61,7 +61,7 @@ html, body {
 }
 
 .imagem-inicial {
-  height: 200px;
+  height: 250px;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
