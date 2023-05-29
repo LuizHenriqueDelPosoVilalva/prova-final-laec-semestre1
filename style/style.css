@@ -40,7 +40,7 @@ html, body {
   width: 100px;
   height: 100%;
   padding: 10px;
-  border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 0;
 }
 
 .centralizando-menu-lateral {
@@ -290,7 +290,7 @@ footer {
   border-top: 1px solid #00FF00;
   border-radius: 5px;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .redes-e-formas-de-pagamento {
     display: flex;
     flex-direction: column;
@@ -304,7 +304,7 @@ footer {
   font-weight: bold;
   margin: 20px 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .formas-de-pagamento h4 {
     text-align: center;
   }
@@ -324,7 +324,7 @@ footer {
   font-weight: bold;
   margin: 20px 0;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .redes-sociais h4 {
     text-align: center;
   }

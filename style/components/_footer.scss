@@ -43,7 +43,7 @@
   border-top: 1px solid $cor-primaria;
   border-radius: 5px;
 
-  @media (max-width: 600px) {
+  @media (max-width: 800px) {
     //media para colocar os elementos dessa div como colunas quando a tela chegar a o maximo de 600px
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
     color: $black;
     font-weight: bold;
     margin: 20px 0;
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
       //media para alinhar os tutilos no centro quando a tela chegar a o maximo de 600px
       text-align: center;
     }
@@ -80,7 +80,7 @@
     color: $black;
     font-weight: bold;
     margin: 20px 0;
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
        //media para alinhar os tutilos no centro quando a tela chegar a o maximo de 600px
       text-align: center;
     }
