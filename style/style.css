@@ -27,8 +27,8 @@ html, body {
   margin-right: 20px;
 }
 .links:hover {
-  border-bottom: 2px solid white;
-  color: white !important;
+  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 .nav-apresentacao {
@@ -36,11 +36,12 @@ html, body {
 }
 
 .menu-lateral {
-  background-color: #00FF00;
+  margin: 10px;
+  height: 800px;
+  border-right: 1px solid #00FF00;
   width: 100px;
-  height: 100%;
   padding: 10px;
-  border-radius: 0 0 5px 0;
+  border-radius: 5px;
 }
 
 .centralizando-menu-lateral {
@@ -53,11 +54,15 @@ html, body {
   text-decoration: none;
   font-size: 13.5px;
   color: #000 !important;
-  margin-top: 50px;
+  margin-top: 20px;
+  border-bottom: 1px solid #000;
+  padding: 10px;
 }
 .links-menu-lareal:hover {
-  border-bottom: 2px solid white;
-  color: white !important;
+  border-bottom: 2px solid #FFFFFF;
+  color: #FFFFFF !important;
+  background-color: #00FF00;
+  border-radius: 5px;
 }
 
 .imagem-inicial {
@@ -120,7 +125,7 @@ footer {
 }
 .button-pesquisa:hover {
   background-color: #00FF00;
-  color: white;
+  color: #FFFFFF;
 }
 
 .button-contato {
@@ -129,18 +134,18 @@ footer {
   border: 1px solid #00FF00;
   border-radius: 5px;
   color: #00FF00;
-  background-color: white;
+  background-color: #FFFFFF;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   transition: all 0.6s;
 }
 .button-contato:hover {
   background-color: #00FF00;
-  color: white;
+  color: #FFFFFF;
 }
 
 .titulo-ofertas {
   text-align: center;
-  margin: 30px 0;
+  margin: 30px 20px;
   color: #000;
   font-weight: bold;
   font-size: 30px;
@@ -152,7 +157,7 @@ footer {
   margin-top: 20px;
   gap: 10px;
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   .caixa-cards {
     /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
     solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
@@ -287,7 +292,6 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-  border-top: 1px solid #00FF00;
   border-radius: 5px;
 }
 @media (max-width: 800px) {
