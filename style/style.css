@@ -158,7 +158,7 @@ footer {
   margin-top: 20px;
   gap: 10px;
 }
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .caixa-cards {
     /* Por algum motivo o card bootstrap estava dando muitos erros aqui então a 
     solução que encontrei foi essa, criar os cards eu mesmo, esse media esta fazendo algo muito 
