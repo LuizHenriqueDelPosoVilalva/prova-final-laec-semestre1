@@ -278,6 +278,10 @@ footer {
   background-color: #00FF00;
   color: #FFFFFF;
 }
+.form-login-cadastro img {
+  width: 30px;
+  margin-right: 30px;
+}
 
 .conteudo-lista-politicas-servicos {
   display: flex;

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@500&display=swap" rel="stylesheet">
+
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+  crossorigin="anonymous"
+  >
+
+  <link rel="stylesheet" href="style/style.css">
+  <title>Login</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-apresentacao"> <!-- navbar do bootstrap para fazer um menu responsivo quando a tela for dimunuida e para alinhar horizontalmente-->
+      <div class="container"> <!-- container para definir uma largura responsiva -->
+        <img src="img/icons/icons8-carrinho-64.png">
+        <h1 class="navbar-brand titulo-do-projeto">
+          Supermercado Vilalva
+        </h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link links" href="duvidas.html">Duvidas? Mande a para nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="cadastro.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="index.html">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class="menu-e-conteudo">
+      <nav class="menu-lateral">
+        <div class="container centralizando-menu-lateral"> <!-- container para definir uma largura responsiva -->
+          <a class="links-menu-lareal" href="higiene.html">Higiene</a>
+          <a class="links-menu-lareal" href="infantil.html">Infantil</a>
+          <a class="links-menu-lareal" href="pet.html">Pet</a>
+          <a class="links-menu-lareal" href="calcados.html">Calçados</a>
+          <a class="links-menu-lareal" href="roticeria.html">Roticeria</a>
+          <a class="links-menu-lareal" href="acougue.html">Açougue</a>
+          <a class="links-menu-lareal" href="bebidas.html">bebidas</a>
+          <a class="links-menu-lareal" href="peixaria.html">Peixaria</a>
+          <a class="links-menu-lareal" href="hotifruti.html">Hortifruti</a>
+          <a class="links-menu-lareal" href="cafe.html">Café</a>
+          <a class="links-menu-lareal" href="padaria.html">Padaria</a>
+          <a class="links-menu-lareal" href="churrasco.html">Churrasco</a>
+        </div>
+      </nav>
+      <div class="caixa-cadastro-login">
+        <div class="container">
+          <div class="row">
+            <div class="caixa-cards-forms">
+              <form class="form-login-cadastro">
+                <h4>Faça seu login</h4>
+                <label for="femail">E-mail</label>
+                <input type="email" id="femail" placeholder="Digite seu e-mail:">
+                <label for="fsenha">Digite sua senha</label>
+                <input type="password" id="fsenha" placeholder="Digite sua senha:">                
+                <button type="submit">Enviar</button>
+                <button>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" />
+                  Entre com a sua conta Google
+                </button>
+                <button>
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" />
+                  Entre com o seu Linkedln
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="caixa-lista-servicos-politicas-contatos">
+        <div class="conteudo-lista-politicas-servicos">
+          <ul>
+            <h4>Atendimento</h4>
+            <li>Meu pedidos</li>
+            <li>Cartão Carrefour</li>
+            <li>Consumidor.gov</li>
+            <li>Central de atendimento</li>
+          </ul>
+        </div>
+        <div class="conteudo-lista-politicas-servicos">
+          <ul>
+            <h4>Institucional</h4>
+            <li>CyberCook</li>
+            <li>Grupo Vilalva</li>
+            <li>Mapa de Produtos</li>
+          </ul>
+        </div>
+        <div class="conteudo-lista-politicas-servicos">
+          <ul>
+            <h4>Políticas Vilalva</h4>
+            <li>Política de Entregas</li>
+            <li>Políticas de troca e devolução</li>
+            <li>Política de cancelamento<br> e ressarcimento</li>
+            <li>Termos de uso</li>
+            <li>Central de privacidade</li>
+            <li>Políticas de privacidade</li>
+          </ul>
+        </div>
+        <div class="duvidas-contatos">
+          <h4><a href="duvidas.html">Tire suas duvidas</a> ou compre pelo telefone:</h4>
+          <p>Região metropolitanas:</p>
+          <button class="button-contato">(67)99889-2919</button>
+          <p>Demais regiões:</p>
+          <button class="button-contato">(67)99889-2919</button>
+        </div>
+      </div>
+      <div class="redes-e-formas-de-pagamento">
+        <div class="formas-de-pagamento">
+          <h4>Formas de pagamento</h4>
+          <p>Crédito:</p>
+          <img src="img/icons/cartao1.png">
+          <img src="img/icons/cartao2.png">
+          <img src="img/icons/cartao3.png">
+          <img src="img/icons/cartao4.png">
+          <img src="img/icons/cartao5.png">
+          <p>Débito:</p>
+          <img src="img/icons/banco1.png">
+          <img src="img/icons/banco2.png">
+          <img src="img/icons/banco3.png">
+          <img src="img/icons/banco4.png">
+          <img src="img/icons/banco5.png">
+          <img src="img/icons/banco6.png">
+        </div>
+        <div class="redes-sociais">
+          <h4>Siga-nos nas redes sociais</h4>
+          <img src="img/icons/rede1.png">
+          <img src="img/icons/rede2.png">
+          <img src="img/icons/rede3.png">
+          <img src="img/icons/rede4.png">
+        </div>
+      </div>
+    </div>
+    <div class="caixa-endereco">
+      <div class="container">
+        <p><span>Mercado Vilalva</span> Nova Andradina-MS, n°2280, Rua: Maria Olinda Nunes, Bairro: Francisco Alvez.</p>
+        <p>luizgarciaevilalva@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
