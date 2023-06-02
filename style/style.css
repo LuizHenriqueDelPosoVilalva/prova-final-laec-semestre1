@@ -330,6 +330,21 @@ footer {
   text-decoration: underline;
 }
 
+.principais-duvidas {
+  margin-top: 40px;
+}
+.principais-duvidas ul {
+  list-style-type: none;
+}
+.principais-duvidas h4 {
+  text-align: center;
+}
+.principais-duvidas h6 {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .caixa-lista-servicos-politicas-contatos {
   display: flex;
   gap: 60px;
