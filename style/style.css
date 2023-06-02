@@ -359,4 +359,17 @@ footer {
 }
 .caixa-endereco span {
   font-weight: bold;
+}
+
+.imagem-carousel {
+  -o-object-position: 0 80%;
+     object-position: 0 80%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.caixa-carousel {
+  margin: 20px 0;
 }/*# sourceMappingURL=style.css.map */
