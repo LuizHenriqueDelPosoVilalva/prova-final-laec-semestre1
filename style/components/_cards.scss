@@ -83,3 +83,59 @@
     align-items: center;
   }
 }
+
+.caixa-cadastro-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.caixa-cards-forms {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form-login-cadastro {
+  width: 70%;
+  border: 2px solid $cor-primaria;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: all 0.6s;
+
+  h4 {
+    text-align: center;
+  }
+
+  label {
+    font: bold;
+  }
+  
+  input{
+    width: 100%;
+    border: 1px solid $cor-primaria;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+    outline: none;
+  }
+
+  button{
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid $cor-primaria;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $white;
+    color: $cor-primaria;
+    font-weight: bold;
+    transition: all 0.6s;
+
+    &:hover {
+      background-color: $cor-primaria;
+      color: $white;
+    }
+  }
+}
