@@ -34,10 +34,11 @@
 .menu-lateral {
   margin: 10px;
   height: 800px;
-  border-right: 1px solid $cor-primaria;
+  border: 1px solid $cor-primaria;
   width: 100px;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .centralizando-menu-lateral {
@@ -48,14 +49,14 @@
 
 .links-menu-lareal {
   text-decoration: none;
+  border-radius: 5px;
   font-size: 13.5px;
-  color:  $black !important;
+  color:  $cor-primaria !important;
   margin-top: 20px;
-  border-bottom: 1px solid $black;
+  border: 1px solid $cor-primaria;
   padding: 10px;
 
   &:hover {
-    border-bottom: 2px solid $white;
     color: $white !important;
     background-color: $cor-primaria;
     border-radius: 5px;

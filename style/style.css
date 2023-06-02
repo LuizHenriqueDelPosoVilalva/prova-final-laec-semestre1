@@ -38,10 +38,11 @@ html, body {
 .menu-lateral {
   margin: 10px;
   height: 800px;
-  border-right: 1px solid #00FF00;
+  border: 1px solid #00FF00;
   width: 100px;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .centralizando-menu-lateral {
@@ -52,14 +53,14 @@ html, body {
 
 .links-menu-lareal {
   text-decoration: none;
+  border-radius: 5px;
   font-size: 13.5px;
-  color: #000 !important;
+  color: #00FF00 !important;
   margin-top: 20px;
-  border-bottom: 1px solid #000;
+  border: 1px solid #00FF00;
   padding: 10px;
 }
 .links-menu-lareal:hover {
-  border-bottom: 2px solid #FFFFFF;
   color: #FFFFFF !important;
   background-color: #00FF00;
   border-radius: 5px;
